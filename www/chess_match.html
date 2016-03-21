@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="./js/chess_match.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/chess_match.css">
+    </head>
+    <body id="body" onload="initGame();">
+        Enter move:
+        <input id="moveTextBox" type="text" name="move">
+        <button onclick="parseCommand();">Send</button>
+        
+        <div id="board"></div>
+        <div id="moveList"></div>
+    </body>
+</html>

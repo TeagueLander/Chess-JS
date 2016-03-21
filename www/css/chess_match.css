@@ -1,0 +1,16 @@
+
+.rank {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.chessCanvasWrapper {
+	width: 480px;
+	height: 480px;
+}
+
+.chessCanvas {
+	width: 100%;
+	height: 100%;
+	max-width: device-width;
+	max-height: device-height;
+}
